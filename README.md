@@ -24,7 +24,8 @@ location / {
 ```
 - Install **MySQL**5.7
 - Set cron using the following commands so that it executes Python scripts get_vac_data() and update_topic() periodically
-```crontab -e
+```
+crontab -e
 0 5,17 * * * python3 /xxx/vactrack/update.py get_vac_data >> xxx/vactrack/log_vac 2>&1 &
 0 5,17 * * * python3 /xxx/vactrack/update.py update_topic >> xxx/vactrack/log_topic 2>&1 &
 ```
