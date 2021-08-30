@@ -27,6 +27,7 @@ def get_c3_data():
 
 @app.route('/l1')
 def get_l1_data():
+    # need to simplify!
     data = utils.get_l1_data()
     day, africa, asia, europe, na, sa, argentina, australia, brazil, canada, china, france, germany, india, indonesia, italy, japan, sk, mexico, russia, saf, sar, turkey, uk, us = [],[],[],[],[], [],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]
     for everytuple in data:
