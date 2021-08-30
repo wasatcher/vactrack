@@ -1,0 +1,164 @@
+body{
+	margin: 0;
+	background: #333;
+}
+a:link { 
+color:#FFFFFF; 
+text-decoration:underline; 
+} 
+a:visited { 
+color:#ffaaff; 
+text-decoration:none; 
+} 
+a:hover { 
+color:#00ffff; 
+text-decoration:none; 
+} 
+a:active { 
+color:#FFFFFF; 
+text-decoration:none; 
+}
+#title{
+	position: absolute;
+	width: 50%;
+	height: 10%;
+	top: 0;
+	left: 25%;
+	color: white;
+	font-size: 30px;
+	font-weight:bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#clock{
+	position: absolute;
+	height: 10%;
+	top: 5%;
+	right: 2%;
+	color: #ffffff;
+	font-size: 18px
+}
+#c1{
+	position: absolute;
+	width: 50%;
+	height: 15%;
+	top: 10%;
+	left: 30%;
+	background: #333;
+}
+.txt{
+	width: 25%;
+	float: left;
+	color: white;
+	font-size: 9px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.num{
+	width: 25%;
+	float: left;
+	color: gold;
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#c2{
+	position: absolute;
+	width: 50%;
+	height: 15%;
+	top: 25%;
+	left: 30%;
+	background: #333;
+}
+.txt2{
+	width: 33.33%;
+	float: left;
+	color: white;
+	font-size: 9px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.num2{
+	width: 33.33%;
+	float: left;
+	color: gold;
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#c3{
+	position: absolute;
+	width: 50%;
+	height: 60%;
+	top: 40%;
+	left: 30%;
+	background: #333;
+}
+#l1{
+	position: absolute;
+	width: 30%;
+	height: 45%;
+	top: 10%;
+	left: 0;
+	background: #333;
+}
+#l2{
+	position: absolute;
+	width: 30%;
+	height: 45%;
+	top: 55%;
+	left: 0;
+	background: #333;
+}
+#r1{
+	position: absolute;
+	width: 20%;
+	height: 45%;
+	top: 10%;
+	right: 0;
+	background: #333;
+}
+#r2{
+	position: absolute;
+	width: 20%;
+	height: 39.3%;
+	top: 55%;
+	right: 0;
+	background: #333;
+}
+#r3a{
+	position: absolute;
+	width: 12%;
+	height: 5.7%;
+	top: 94.3%;
+	left: 80%;
+	background: #333;
+	overflow: hidden;
+	margin: 0 auto;
+}
+#r3b{
+	position: absolute;
+	width: 8%;
+	height: 5.7%;
+	top: 94.3%;
+	right: 0;
+	background: #333;
+	color: white;
+}
+.visit{
+	float: left;
+	width: 100%;
+}
+.txt3{
+	width: 100%;
+	display:block;
+	color: white;
+	font-size: 11px;
+	vertical-align: top;
+	line-height: 1.2;
+}
