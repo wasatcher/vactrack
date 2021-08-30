@@ -5,6 +5,7 @@ def get_time():
     return time.strftime("%Y-%m-%d %X")
 
 # get_conn() and close_conn() are two encapsulated methods that establish and close database connections
+# use local mysql database
 def get_conn():
     conn = pymysql.connect(host="127.0.0.1",
                            user="xxxxx",
