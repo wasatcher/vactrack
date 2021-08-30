@@ -11,6 +11,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # Get and update table "vac" and "loc" in database "vaccinations"
+# source is from Our World in Data
 def get_vac_data():
     engine = create_engine('mysql+pymysql://xxxxx:xxxxx@localhost:3306/vaccinations')
     # refresh table "vac"
@@ -37,7 +38,7 @@ def close_conn(conn, cursor):
     if conn:
         conn.close()
 
-# Scrap the titles from the first 5 pages of BBC coronavirus vaccines topic.
+# Scrap the titles from the first page of BBC coronavirus vaccines topic.
 def get_bbc_vac():
     url = "https://www.bbc.com/news/topics/c87z0we2g0zt/coronavirus-vaccines"
     option = ChromeOptions()
